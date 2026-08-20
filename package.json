@@ -1,0 +1,10 @@
+{
+  "name": "@organization-wide-standards/input-validations",
+  "version": "1.0.0",
+  "description": "The ultimate internal company input validations library",
+  "main": "index.ts",
+  "types": "index.ts",
+  "dependencies": {
+    "typescript": "^5.0.0"
+  }
+}
