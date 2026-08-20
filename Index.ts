@@ -17,3 +17,4 @@ export * from './PostalCode';
 export * from './Url';
 export * from './Username';
 export * from './GSTIN';
+export * from './Button';
