@@ -16,3 +16,4 @@ export * from './PhoneNumber';
 export * from './PostalCode';
 export * from './Url';
 export * from './Username';
+export * from './GSTIN';
