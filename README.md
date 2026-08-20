@@ -10,7 +10,7 @@ Since this is a private company repository, you can install it directly from Git
 
 ## 🚀 Available Validations
 
-We have 18 highly secure validators ready to use. Every validator returns a `ValidationResult` object containing `isValid` (boolean) and an `errorMessage` (string | null) so you can easily show errors in your UI.
+We have 20 highly secure validators ready to use. Every validator returns a `ValidationResult` object containing `isValid` (boolean) and an `errorMessage` (string | null) so you can easily show errors in your UI.
 
 **Identity & Auth:**
 * `validateEmail`, `validatePassword`, `validateUsername`
@@ -24,6 +24,11 @@ We have 18 highly secure validators ready to use. Every validator returns a `Val
 **Financial & Secure IDs:**
 * `validateAccountNumber`, `validateIFSCCode`, `validateBankName`
 * `validatePanCard`, `validateAadhaar`, `validateCurrency`
+* `validateGSTIN`
+
+**Form Logic:**
+* `validateButton` (Master Validator for protecting submit buttons)
+
 
 ## 💻 How to Use (Example)
 
