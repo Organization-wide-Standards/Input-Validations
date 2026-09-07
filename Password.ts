@@ -17,9 +17,14 @@ export const validatePassword = (password: string): ValidationResult => {
     return { isValid: false, errorMessage: 'Password must contain at least one uppercase letter.' };
   }
 
-  // 4. Check for special character (we allow everything, but require at least one)
-  if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
-    return { isValid: false, errorMessage: 'Password must contain at least one special character.' };
+  // 4. Check for special character/symbol
+  // Standard punctuation and symbols such as:
+  // ! @ # $ % ^ & * ( ) , . ? " : { } | < > - _ + =
+  if (!/[!@#$%^&*(),.?":{}|<>\-_+=]/.test(password)) {
+    return {
+      isValid: false,
+      errorMessage: 'Password must contain at least one special character.'
+    };
   }
 
   // Success
