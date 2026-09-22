@@ -36,7 +36,7 @@ Here is a quick example of how to use this library inside a React or React Nativ
 
 ```tsx
 import React, { useState } from 'react';
-import { validateEmail, validatePassword } from 'input-validations';
+import { validateEmail, validatePassword } from '@organization-wide-standards/input-validations';
 
 const LoginScreen = () => {
   const [email, setEmail] = useState('');
