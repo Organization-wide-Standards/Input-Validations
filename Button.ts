@@ -1,5 +1,5 @@
 // Import the shared interface
-import { ValidationResult } from './Email';
+import type { ValidationResult } from './Email';
 
 export interface ButtonValidationOptions {
   /** Array of validation results from your form fields (e.g., Email, Password) */

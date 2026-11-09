@@ -1,5 +1,5 @@
 // Import the shared interface we created in the Email file
-import { ValidationResult } from './Email';
+import type { ValidationResult } from './Email';
 
 export const validatePassword = (password: string): ValidationResult => {
   // 1. Check if empty
