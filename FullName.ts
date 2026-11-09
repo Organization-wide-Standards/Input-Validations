@@ -1,5 +1,5 @@
 // Import the shared interface
-import { ValidationResult } from './Email';
+import type { ValidationResult } from './Email';
 
 export const validateName = (name: string): ValidationResult => {
   // 1. Check if empty
